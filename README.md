@@ -7,8 +7,8 @@ An end-to-end machine learning project that predicts customer churn, exposes pre
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/itsmeSwarnali/customer-churn-prediction.git
-cd customer-churn-prediction
+git clone https://github.com/itsmeSwarnali/customer-churn-prediction-with-FastAPI-Docker-Deployment.git
+cd customer-churn-prediction-with-FastAPI-Docker-Deployment
 ```
 
 2. Build Docker image
