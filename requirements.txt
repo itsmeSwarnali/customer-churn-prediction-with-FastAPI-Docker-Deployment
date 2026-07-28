@@ -3,7 +3,7 @@ numpy
 ipykernel
 openpyxl
 seaborn
-matplot
+matplotlib
 scikit-learn
 fastapi 
 uvicorn
