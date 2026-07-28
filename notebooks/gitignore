@@ -1,5 +1,22 @@
-__pycache__/
-.ipynb_checkpoints/
-*.pkl
-.env
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
