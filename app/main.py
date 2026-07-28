@@ -43,6 +43,15 @@ class CustomerData(BaseModel):
 def home():
     return {"message": "customer churn Prediction API is running"}
 
+
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "model_loaded": model is not None,
+        "preprocessor_loaded": preprocessor is not None
+    }
+
 @app.post("/predict")
 
 def predict(data: CustomerData):
@@ -67,7 +76,7 @@ def predict(data: CustomerData):
         "Paperless Billing": data.Paperless_Billing,
         "Payment Method": data.Payment_Method,
         "Monthly Charges": data.Monthly_Charges,
-        "Total Charges": str(data.Total_Charges),
+        "Total Charges": data.Total_Charges,
         "CLTV": data.CLTV
     }])
 
