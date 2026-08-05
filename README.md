@@ -72,9 +72,9 @@ Key findings:
 
 | Model | Accuracy | Recall | F1 | ROC-AUC |
 |---------|---------:|---------:|---------:|---------:|
-| Logistic Regression | 0.8041 | 0.5668 | 0.6057 | 0.8454 |
-| Random Forest | 0.7913 | 0.4840 | 0.5518 | 0.8316 |
-| XGBoost | 0.7736 | 0.4947 | 0.5370 | 0.8286 |
+| Logistic Regression | 0.8041 | 0.5668 | 0.6057 | 0.8409 |
+| Random Forest | 0.7913 | 0.5106 | 0.5685 | 0.8419 |
+| XGBoost | 0.78426 | 0.5053 | 0.5543 | 0.8242 |
 
 ## Best Model
 
